@@ -79,9 +79,32 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .container {
-	max-width: ;
+	max-width: 1301px;
 	margin: 0 auto;
 	position: relative;
 }
 
 /* ======================================================================== */
+.nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.img {
+	margin: 40px 0px 0px 80px;
+}
+
+.nav__list {
+	display: flex;
+	margin-top: 40px;
+}
+
+.list__item {
+	margin-right: 56px;
+}
+
+.button {
+	margin-top: 40px;
+	margin-right: 80px;
+}
